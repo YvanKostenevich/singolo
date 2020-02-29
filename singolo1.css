@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #2d303a;
+    font-family: 'Lato', serif;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 39px;
+}
+
+.header h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.header span {
+    color: #f06c64;
+}
+
+.navbar ul {
+    display: flex;
+    width: 372px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+.navbar a:hover {
+    color: #f06c64;
+}
+
+.blueline {
+    height: 7px;
+    background-color: #2d303a;
+}
+
+.hero{
+    height: 600px;
+    background-color: #f06c64;
+    display: flex;
+    position: relative;
+}
+
+img {
+    height: fit-content;
+}
+.iphone_Hor{
+    margin: 174px 0 0 73px;
+}
+.iphone_Ver{
+    margin: 53px 0 0 112px;
+}
+
+.arrow {
+    border: solid #ca4549;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 7px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    top: 285px;
+    right: 42px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    top: 285px;
+    left: 46px;
+}
+.services-advantages{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.services-background{
+    color: #666d89;
+    padding: 61px 40px 0 40px;
+}
+.services{
+    font-family: 'Lato', sans-serif;
+
+}
+.services h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+}
+.services-advantages h3{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1;
+}
+.services-advantages p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+.services p{
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+}
+.advantages{
+    width: 300px;
+}
+.advantages{
+    display: flex;
+    padding-bottom: 22px;
+}
+.adv-img-container{
+    width: 115px;
+}
+.adv-text-container{
+    padding: 0 0 0 19px;
+    line-height: 1.6;
+}
