@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    margin: 0;
+}
+.portfolio{
+    background-color: #2d303a;
+    color: #666d89;
+    padding: 0 40px;
+}
+.portfolio-description h2{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 62px 0 5px 0;
+}
+.portfolio-description p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+.portfolio-icons{
+    padding: 0 0 17px 0;
+    display: flex;
+}
+.icon{
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 8px;
+}
+.icon span{
+    padding: 0 7px;
+    vertical-align: sub;
+
+}
+.icon:hover{
+    border: 1px solid #c5c5c5;
+    color: #c5c5c5;
+    cursor: pointer;
+}
+.portfolio-images img{
+    padding: 0 16px 20px 0;
+}
+.portfolio-images img:nth-child(4n){
+    padding: 0 0 20px 0;
+}
