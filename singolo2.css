@@ -12,6 +12,8 @@ h2{
     background-color: #2d303a;
     color: #666d89;
     padding: 0 40px;
+    height: 864px;
+    font-size: 0;
 }
 .portfolio-description h2{
     font-size: 30px;
@@ -46,8 +48,57 @@ h2{
     cursor: pointer;
 }
 .portfolio-images img{
-    padding: 0 16px 20px 0;
+    padding: 0 20px 20px 0;
 }
 .portfolio-images img:nth-child(4n){
     padding: 0 0 20px 0;
+}
+.endline{
+    height: 7px;
+    background: #323746;
+}
+
+.about-us{
+    padding: 0 40px;
+    font-family: 'Lato', sans-serif;
+    color: #767e9e;
+}
+.about-us-description{
+    padding-top: 60px;
+}
+.about-us-description h2{
+    font-weight: 900;
+    font-size: 30px;
+}
+.about-us-description p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.about-us-employee{
+    display: flex;
+    justify-content: space-between;
+}
+.employee{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 0 0 0;
+}
+.employee h3 {
+    font-weight: 900;
+    font-size: 18px;
+    margin: 15px 0 2px 0;
+}
+.employee p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 8px 0 0 0;
+}
+.social{
+    padding-top: 25px;
+}
+.social img{
+    padding-right: 5px;
 }
