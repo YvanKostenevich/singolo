@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.feedback {
+    color: #f0d8d9;
+    padding: 0 40px;
+    background: #f06c64;
+    height: 646px;
+}
+
+.feedback h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    padding: 62px 0 0 0;
+}
+
+.feedback p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 26px;
+}
+
+.feedback-form {
+    display: flex;
+}
+.form{
+    width: fit-content;
+}
+
+input, textarea {
+    background: #d6564f;
+    border: none;
+    border-radius: 5px;
+    width: 619px;
+    height: 35px;
+    margin: 0 0 17px 0;
+}
+
+textarea {
+    height: 197px;
+    width: 615px;
+    resize: none;
+    font-family: 'Lato', sans-serif;
+}
+
+::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #f48c8f;
+    padding-left: 14px;
+}
+
+textarea::placeholder {
+    padding-top: 9px;
+    padding-left: 13px;
+}
+
+.phone {
+    list-style-image: url("assets/phone-form.png");
+}
+
+.address {
+    list-style-image: url("assets/location-form.png");
+}
+
+.mail {
+    list-style-image: url("assets/mail-form.png");
+}
+.feedback-form p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 11px 0 0 0;
+    margin: 0;
+    width: 310px;
+}
+.feedback-form h4{
+    margin: 0;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+}
+.feedback-form aside{
+    padding-left: 20px;
+}
+.feedback-form ul{
+    padding: 8px 0 0 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+.feedback-form li{
+    padding-left: 4px;
+}
+.redline{
+    height: 7px;
+    background: #ea676b;
+}
+footer{
+    height: 76px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+}
+footer h4{
+    margin: 0;
+    color: #666d89;
+    align-self: center;
+    font-size: 12px;
+    padding: 0 0 0 42px;
+}
+footer .social{
+    align-self: center;
+    padding: 6px 40px 0 0;
+}
+.social img{
+    padding: 0 0 0 5px;
+}
