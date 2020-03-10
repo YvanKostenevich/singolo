@@ -50,7 +50,7 @@
 }
 
 .hero{
-    height: 600px;
+    height: 593px;
     background-color: #f06c64;
     display: flex;
     position: relative;
@@ -91,7 +91,7 @@ img {
 .services-advantages{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding: 30px 0 37px 0;
     justify-content: space-between;
 }
 .services-background{
@@ -190,7 +190,7 @@ h2{
     background: #323746;
 }
 .about-us{
-    padding: 0 40px;
+    padding: 0 40px 70px;
     font-family: 'Lato', sans-serif;
     color: #767e9e;
 }
@@ -226,12 +226,13 @@ h2{
     font-size: 12px;
     line-height: 20px;
     margin: 8px 0 0 0;
+    text-align: justify;
 }
 .social{
     padding-top: 25px;
 }
 .social img{
-    padding-right: 5px;
+    padding-right: 3px;
 }
 .feedback {
     color: #f0d8d9;
